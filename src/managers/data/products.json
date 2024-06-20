@@ -1,0 +1,33 @@
+[
+    {
+        "id": "cf7a2f49-fc20-492b-a244-d60680e4be19",
+        "title": "Product 2",
+        "description": "Descripción",
+        "code": "789abc",
+        "price": 1200,
+        "status": true,
+        "stock": 4,
+        "category": "product"
+    },
+    {
+        "id": "7a9141d3-c9a2-4ea1-a1ce-a3639951c0e4",
+        "title": "Product 3",
+        "description": "Descripción ",
+        "code": "789abc",
+        "price": 1200,
+        "status": true,
+        "stock": 4,
+        "category": "product",
+        "thumbnail": "https://i.imgur.com/BHMXX52.jpg"
+    },
+    {
+        "id": "b8f8ae22-08e4-45ec-b1fc-adc144660784",
+        "title": "Product 5",
+        "description": "Descripción ",
+        "code": "789abc",
+        "price": 1200,
+        "status": true,
+        "stock": 4,
+        "category": "product"
+    }
+]
