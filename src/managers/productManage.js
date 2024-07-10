@@ -86,8 +86,8 @@ const updateProduct = async (id, productData) => {
 //Eliminar producto
 const deleteProduct = async (id) => {
   try {
-
     await getProducts();
+    console.log(`Producto borrado:`, products);
     products = products.filter(prod => prod.id !== id)
     await fs.promises.writeFile(path, JSON.stringify(products));
     return products;
@@ -96,6 +96,7 @@ const deleteProduct = async (id) => {
     console.log(`${error}`);
   }
 }
+
 
 
 
